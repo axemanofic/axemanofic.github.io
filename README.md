@@ -1,13 +1,13 @@
-Vite start app
+axemanofic.github.io
 ====
-Vite template for site layout
+Its my personal page
 
 
-## :heart: How to use
+## :heart: How to run?
 
 ### :rocket: Install dependencies
 ```bash
-cd vite-frontend-starters
+cd axemanofic.github.io
 
 npm install
 ```
