@@ -1,0 +1,69 @@
+@import "normalize.css"
+@import "default.sass"
+@import "variables.sass"
+
+@import "components.sass"
+
+body
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  background-color: $bg-color 
+  color: $txt-color
+  position: relative
+
+footer
+  width: 100%
+  text-align: center
+  position: absolute
+  bottom: 0
+
+.container
+  height: 100vh
+  width: 100%
+  max-width: 1200px
+  margin: 0 auto
+  display: flex 
+  align-items: center
+
+.profile
+  width: 500px
+  margin: 0 auto
+  background-color: $fg-color
+  border-radius: $border-radius
+  overflow: hidden
+
+.profile__img
+  width: 100%
+  object-fit: cover
+
+.profile__body
+  padding: 10px
+
+.profile__title
+  text-align: center
+
+.profile__link:hover
+  color: #0378ff
+
+.profile__link:active
+  color: #0378ff
+
+.profile__link_mail
+  color: $mail-color
+.profile__link_tg
+  color: $tg-color
+.profile__link_gh
+  color: $gh-color
+.profile__link_linkedin
+  color: $linkedin-color
+
+.profile__skills > *
+  border-radius: $border-radius - 5
+  background-color: #e8e2a9
+  padding: 5px
+  margin: 1px
+
+.profile__skills > *:not(*:last-child)
+  margin-right: 10px
+
+
+

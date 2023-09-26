@@ -1,0 +1,18 @@
+{
+  "name": "axemanofic.github.io",
+  "description": "Personal page",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.56.1",
+    "vite": "^4.0.0",
+    "animate.css": "^4.1.1"
+  }
+}
