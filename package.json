@@ -1,7 +1,7 @@
 {
   "name": "axemanofic.github.io",
   "description": "Personal page",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

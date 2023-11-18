@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/axemanofic/axemanofic.github.io/compare/v0.1.1...v0.1.2) (2023-11-18)
+
+
+### Bug Fixes
+
+* add defer async scripts and delete animate.css ([d1c0b9a](https://github.com/axemanofic/axemanofic.github.io/commit/d1c0b9a3e2a7b6aefad57eeeaab7bddd850aca0e))
+* optimize images and replace jpg to webp ([5e8653b](https://github.com/axemanofic/axemanofic.github.io/commit/5e8653bc4e8bd6c33a2d699e99cc1602f8338fca))
+
 ### 0.1.1 (2023-11-18)
 
 
