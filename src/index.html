@@ -25,13 +25,21 @@
     <script
       src="https://kit.fontawesome.com/90fa2a08ad.js"
       crossorigin="anonymous"
+      defer
+      async
     ></script>
     <title>Sotnikov Roman | Backend Developer</title>
   </head>
   <body>
     <div class="container">
-      <div class="profile animate__animated animate__zoomIn">
-        <img src="/assets/photo.jpg" alt="" class="profile__img" />
+      <div class="profile">
+        <img
+          src="/assets/photo.webp"
+          width="500"
+          height="500"
+          alt="Author photo"
+          class="profile__img"
+        />
         <div class="profile__body">
           <div class="profile__title-position txt-center">
             <h1 class="profile__title">Sotnikov Roman</h1>
@@ -47,18 +55,21 @@
             <a
               href="https://t.me/axemanofic"
               class="profile__link profile__link_tg icon-link"
+              target="_blank"
             >
               <i class="icon icon_size fab fa-telegram"></i>
             </a>
             <a
               href="https://github.com/axemanofic"
               class="profile__link profile__link_gh icon-link"
+              target="_blank"
             >
               <i class="icon icon_size fab fa-github"></i>
             </a>
             <a
               href="https://linkedin.com/in/axemanofic"
               class="profile__link profile__link_linkedin icon-link"
+              target="_blank"
             >
               <i class="icon icon_size fab fa-linkedin"></i>
             </a>
@@ -83,12 +94,10 @@
               <li>Docker</li>
             </ul>
           </div>
-          <footer class="txt-center">
-            Made with &#10084;
-          </footer>
+          <footer class="txt-center">Made with &#10084;</footer>
         </div>
       </div>
     </div>
-    <script type="module" src="/index.js"></script>
+    <script defer async type="module" src="/index.js"></script>
   </body>
 </html>
