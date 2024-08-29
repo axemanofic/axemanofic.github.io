@@ -1,33 +1,33 @@
 @import "normalize.css"
 @import "default.sass"
 @import "variables.sass"
+@import "themes.sass"
 
 @import "components.sass"
 
 body
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: system-ui
   font-size: 1.2rem
-  background-color: $bg-color 
-  color: $txt-color
   position: relative
+  cursor: default
   @media screen and (max-width: 550px)
     font-size: 1.1rem
 
 
 .container
-  height: 100vh
-  width: 100%
+  width: 100vw
   max-width: 1200px
   margin: 0 auto
   display: flex 
   align-items: center
-  @media screen and (height <= 851px)
-    height: 100%
 
 .profile
-  width: 500px
-  margin: 0 auto
-  background-color: $fg-color
+  display: flex
+  flex-direction: column
+  justify-content: end
+
+  width: 600px
+  margin: 10px auto
   border-radius: $border-radius
   overflow: hidden
 
@@ -42,34 +42,28 @@ body
 .profile__body
   padding: 10px
 
+.profile__title-position
+  margin-bottom: 10px
+
 .profile__title
   text-align: center
 
-.profile__link:hover
-  color: $link-hover-active-color
-
-.profile__link:active
-  color: $link-hover-active-color
-
-.profile__link_mail
-  color: $mail-color
-.profile__link_tg
-  color: $tg-color
-.profile__link_gh
-  color: $gh-color
-.profile__link_linkedin
-  color: $linkedin-color
+.profile__social > *
+  border-radius: $border-radius - 5
+  transition: 0.5s
+.profile__social > *:hover
+  transform: scale(1.1)
+  transition: 0.5s
+.profile__social > *:not(*:last-child)
+  margin-right: 10px
 
 .profile__skills
   justify-content: center
 
 .profile__skills > *
   border-radius: $border-radius - 5
-  background-color: #e8e2a9
   padding: 5px
   margin: 5px
-  @media screen and (max-width: 550px)
-    padding: 10px
 
 .profile__skills > *:not(*:last-child)
   margin-right: 10px
