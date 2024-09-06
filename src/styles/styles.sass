@@ -7,12 +7,9 @@
 
 body
   font-family: system-ui
-  font-size: 1.2rem
+  font-size: 1rem
   position: relative
   cursor: default
-  @media screen and (max-width: 550px)
-    font-size: 1.1rem
-
 
 .container
   width: 100vw
@@ -32,8 +29,8 @@ body
   overflow: hidden
 
   @media screen and (max-width: 550px)
-    width: 100%
     border-radius: 0px 
+    margin: 0
 
 .profile__img
   width: 100%
@@ -49,13 +46,17 @@ body
   text-align: center
 
 .profile__social > *
+  margin: 10px
   border-radius: $border-radius - 5
   transition: 0.5s
+
 .profile__social > *:hover
   transform: scale(1.1)
   transition: 0.5s
-.profile__social > *:not(*:last-child)
-  margin-right: 10px
+
+  @media screen and (max-width: 550px)
+    transition: none
+    transform: none
 
 .profile__skills
   justify-content: center
