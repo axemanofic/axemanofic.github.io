@@ -1,0 +1,10 @@
+{
+  "name": "Sotnikov Roman",
+  "position": "Backend Developer",
+  "email": "romasotnikov12345@gmail.com",
+  "telegram": "https://t.me/axemanofic",
+  "github": "https://github.com/axemanofic",
+  "linkedin": "https://linkedin.com/in/axemanofic",
+  "about": "Backend developer with 6 years of experience. Wrote in Python. Worked in small companies. Wrote a backend to automate the work of category managers. I am interested in information technology and how it transforms business.",
+  "skills": ["Golang", "Python", "RabbitMQ", "Postgresql", "Docker", "k8s"]
+}

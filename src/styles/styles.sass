@@ -17,6 +17,11 @@ body
   margin: 0 auto
   display: flex 
   align-items: center
+  padding: 0 20px
+
+  @media screen and (max-width: 550px)
+    flex-direction: column
+    align-items: stretch
 
 .profile
   display: flex
@@ -31,6 +36,8 @@ body
   @media screen and (max-width: 550px)
     border-radius: 0px 
     margin: 0
+    width: 100%
+    max-width: 600px
 
 .profile__img
   width: 100%
@@ -38,6 +45,7 @@ body
 
 .profile__body
   padding: 10px
+  font-size: 0.95rem
 
 .profile__title-position
   margin-bottom: 10px
@@ -68,6 +76,23 @@ body
 
 .profile__skills > *:not(*:last-child)
   margin-right: 10px
+
+@media screen and (max-width: 768px)
+  .profile
+    width: 90%
+    max-width: 500px
+
+  .profile__social
+    flex-direction: row
+    align-items: center
+    padding: 0 15px
+
+    @media screen and (max-width: 768px)
+      padding: 0 10px
+
+@media screen and (max-width: 350px)
+  .profile__body
+    font-size: 0.85rem
 
 
 
